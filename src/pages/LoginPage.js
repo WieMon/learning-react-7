@@ -2,8 +2,12 @@ import React from 'react';
 
 const LoginPage = () => {
   return ( 
-    <div>Login in</div>
-   );
+    <div>
+      <label htmlFor="">Your login<input type="text" /></label>
+      <label htmlFor="">Your password<input type="password" /></label>
+      <button>Log in</button>
+    </div>
+  );
 }
  
 export default LoginPage;
